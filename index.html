@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title -->
+    <title>Home - Tiny Swimming</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.png">
+
+    <!-- Font Family -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Slick JS -->
+    <link rel="stylesheet" href="css/slick.css">
+
+    <!-- Aos JS -->
+    <link rel="stylesheet" href="css/aos.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive Style Sheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header Start -->
+    <header class="main-header">
+        <div class="position-relative">
+            <div class="container position-relative">
+                <div class="row pt-3 align-items-center justify-content-between">
+                    <div class="col-lg-4 col-4">
+                        <a href="index.html">
+                            <img src="images/logo.png" class="header-logo" alt="Tiny Swimming logo" />
+                        </a>
+                    </div>
+
+                    <div class="col-lg-6 col-8">
+                        <ul class="top-buttons d-flex justify-content-end gap-3">
+                            <li>
+                                <a href="#" target="_blank">Parent Hub</a>
+                            </li>
+                            <li>
+                                <a href="https://morleisure.co.uk/MyLessons/MSL_Registration.asp?oid=347" target="_blank">Register Here</a>
+                            </li>
+                        </ul>
+
+                        <nav class="d-flex align-items-center justify-content-end gap-4">
+                            <ul class="nav-items d-flex align-items-center gap-3">
+                                <li>
+                                    <a href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="lessons.html">Lessons</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            
+                            <div class="sidebar">
+                                <button class="solid-bar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                                    <i class="fa-solid fa-bars"></i>
+                                </button>
+
+                                <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                                    <div class="offcanvas-header">
+                                        <button type="button" class="close-sidebar" data-bs-dismiss="offcanvas" aria-label="Close">
+                                            <i class="fa-solid fa-xmark"></i>
+                                        </button>
+                                    </div>
+
+                                    <div class="offcanvas-body">
+                                        <ul>
+                                            <li>
+                                                <div class="d-flex gap-2 align-items-center">
+                                                    <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                    <a href="about.html">About Us</a>
+                                                </div>
+
+                                                <ul>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="about.html#our-approach">Our Approach</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="about.html#why-we-do">Why we do what we do</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="about.html#how-we-do">How we do what do we do</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="about.html#aqua-sensory">Aqua Sensory / Waters Touch</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="about.html#child-led">Child Led</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="about.html#empowering-parents">Empowering Parents</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="#">STA / Swim England</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="about.html#our-teachers">Our teachers</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <li>
+                                                <div class="d-flex gap-3 align-items-center">
+                                                    <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                    <a href="lessons.html">Lessons</a>
+                                                </div>
+
+                                                <ul>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="prices.html">Prices</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="#">Venues</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="calendar.html">Term Calendars</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="award.html">Award Scheme</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="d-flex gap-3 align-items-center">
+                                                <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                <a href="contact.html">Contact Us</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wavy-line">
+                <img src="images/header-wavy-line.png" class="w-100" alt="wavy line" />
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main>
+        <!-- Slider Start -->
+        <section class="slider h-100 postion-relative">
+            <div class="prev">
+                <div class="d-flex">
+                    <img class="left-arrow" src="images/home/slider/arrow/prev.png" alt="prev" />
+                    <img class="left-turtle" src="images/home/slider/arrow/left_turtle.png" alt="turtle" />
+                </div>
+            </div>
+
+            <div class="next">
+                <div class="d-flex">
+                    <img class="right-turtle" src="images/home/slider/arrow/right_turtle.png" alt="turtle" />
+                    <img class="right-arrow" src="images/home/slider/arrow/next.png" alt="next" />
+                </div>
+            </div>
+
+            <div class="home-slider">
+                <div style="background: url(images/home/slider/1.png) no-repeat top / cover;" class="slider-content">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2 data-animation="fadeInUp" data-delay="0.3s">
+                                        With professional instructors and a friendly atmosphere, we can help your little one not only learn to swim, but love to swim!
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: url(images/home/slider/2.png) no-repeat top / cover;" class="slider-content">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2 data-animation="fadeInUp" data-delay="0.3s">
+                                        With professional instructors and a friendly atmosphere, we can help your little one not only learn to swim, but love to swim!
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: url(images/home/slider/3.png) no-repeat top / cover;" class="slider-content">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2 data-animation="fadeInUp" data-delay="0.3s">
+                                        With professional instructors and a friendly atmosphere, we can help your little one not only learn to swim, but love to swim!
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: url(images/home/slider/4.png) no-repeat top / cover;" class="slider-content">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2 data-animation="fadeInUp" data-delay="0.3s">
+                                        With professional instructors and a friendly atmosphere, we can help your little one not only learn to swim, but love to swim!
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: url(images/home/slider/1.png) no-repeat top / cover;" class="slider-content">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2 data-animation="fadeInUp" data-delay="0.3s">
+                                        With professional instructors and a friendly atmosphere, we can help your little one not only learn to swim, but love to swim!
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: url(images/home/slider/2.png) no-repeat top / cover;" class="slider-content">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2 data-animation="fadeInUp" data-delay="0.3s">
+                                        With professional instructors and a friendly atmosphere, we can help your little one not only learn to swim, but love to swim!
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: url(images/home/slider/3.png) no-repeat top / cover;" class="slider-content">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2 data-animation="fadeInUp" data-delay="0.3s">
+                                        With professional instructors and a friendly atmosphere, we can help your little one not only learn to swim, but love to swim!
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: url(images/home/slider/4.png) no-repeat top / cover;" class="slider-content">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2 data-animation="fadeInUp" data-delay="0.3s">
+                                        With professional instructors and a friendly atmosphere, we can help your little one not only learn to swim, but love to swim!
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Slider End -->
+
+        <!-- Welcome Start -->
+        <section class="welcome">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-lg-12 mt-4">
+                        <h1>Welcome to Tiny Swimming</h1>
+                        <p class="mt-4">
+                            At Tiny Swimming we believe that learning to swim should be fun, nurturing, gentle and engaging, and enable your child to become familiar with the new experience of swimming in a safe, warm environment.
+                        </p>
+                        <p class="mt-3">
+                            All of our lessons focus on taking the child’s lead, developing water confidence and swimming technique by providing opportunities for sensory discovery in the pool.
+                        </p>
+                        <div class="text-end mt-3 mt-sm-5">
+                            <a href="#" class="btn-white">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Welcome End -->
+
+        <!-- Journey Start -->
+        <section class="journey position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-xxl-11 position-relative">
+                        <h2 class="text-center">Start your swimming journey with us...</h2>
+
+                        <div class="class-model-1 text-center d-inline-block position-absolute">
+                            <div class="mb-2" data-aos="fade-up" data-aos-duration="1000">
+                                <img src="images/home/journey/logos/1.png" alt="logo" />
+                            </div>
+                            <p class="bold">
+                                Gentle, fun, nurturing, <br> 
+                                child-led classes for children <br>
+                                aged 6 weeks to 4+ years old. 
+                            </p>
+                        </div>
+
+                        <div class="class-model-2 text-center d-inline-block position-absolute">
+                            <div class="mb-2" data-aos="fade-up" data-aos-duration="1000">
+                                <img src="images/home/journey/logos/2.png" alt="logo" />
+                            </div>
+                            <p class="bold">
+                                Baby Turtles 
+                            </p>
+                            <p>Aged 6 weeks - 6 month old</p>
+                        </div>
+
+                        <div class="class-model-3 text-center d-inline-block position-absolute">
+                            <div class="d-inline-flex align-items-center gap-3">
+                                <div>
+                                    <p class="bold">
+                                        Tiny Turtles
+                                    </p>
+                                    <p>Aged 6 months - 1 year old</p>
+                                </div>
+                                <div class="mb-2" data-aos="fade-up" data-aos-duration="1000">
+                                    <img src="images/home/journey/logos/3.png" alt="logo" />
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="class-model-4 text-center d-inline-block position-absolute">
+                            <div class="mb-2" data-aos="fade-up" data-aos-duration="1000">
+                                <img src="images/home/journey/logos/4.png" alt="logo" />
+                            </div>
+                            <p class="bold">
+                                Turtles 1 
+                            </p>
+                            <p>Aged 1 ~ 2 years old</p>
+                        </div>
+                        
+                        <div class="class-model-5 text-center d-inline-block position-absolute">
+                            <div class="mb-2" data-aos="fade-up" data-aos-duration="1000">
+                                <img src="images/home/journey/logos/5.png" alt="logo" />
+                            </div>
+                            <p class="bold">
+                                Turtles 2
+                            </p>
+                            <p>Aged 2 ~ 3 years old</p>
+                        </div>
+                        
+                        <div class="class-model-6 text-center d-inline-block position-absolute">
+                            <div class="mb-2" data-aos="fade-up" data-aos-duration="1000">
+                                <img src="images/home/journey/logos/6.png" alt="logo" />
+                            </div>
+                            <p class="bold">
+                                Turtles 3
+                            </p>
+                            <p>Aged 3 ~ 4 years old</p>
+                        </div>
+                        
+                        <div class="class-model-7 text-center d-inline-block position-absolute">
+                            <div class="mb-2" data-aos="fade-up" data-aos-duration="1000">
+                                <img src="images/home/journey/logos/7.png" alt="logo" />
+                            </div>
+                            <p class="bold">
+                                Turtles 4
+                            </p>
+                            <p>Aged 4 ~ 5 years old</p>
+                        </div>
+                        
+                        <div class="class-model-8 text-center d-inline-block position-absolute">
+                            <div class="mb-2" data-aos="fade-up" data-aos-duration="1000">
+                                <img src="images/home/journey/logos/8.png" alt="logo" />
+                            </div>
+                            <p class="bold">
+                                Transition
+                            </p>
+                            <p>Aged 4+ years <br> independent swimmer</p>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10">
+                                <div class="dot-line">
+                                    <img src="images/home/journey/turtle_bubbles_line.png" class="w-100" alt="line">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-end">
+                            <a href="#" class="btn-blue">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="watermark-top-left position-absolute">
+                <img src="images/home/watermark_top_left.png" alt="watermark" />
+            </div>
+
+            <div class="watermark-top-right position-absolute text-end">
+                <img src="images/home/watermark_top_right.png" alt="watermark" />
+            </div>
+
+            <div class="watermark-bottom-left position-absolute">
+                <img src="images/home/watermark_bottom_left.png" alt="watermark" />
+            </div>
+
+            <div class="watermark-bottom-right position-absolute text-end">
+                <img src="images/home/watermark_bottom_right.png" alt="watermark" />
+            </div>
+        </section>
+        <!-- Journey End -->
+    </main>
+    <!-- Main End -->
+
+    <!-- BTT Start -->
+    <div class="btt">
+        <img src="images/btt.png" alt="btt icon" />
+    </div>
+    <!-- BTT End -->
+
+    <!-- Footer Start -->
+    <footer class="position-relative">
+        <div class="main-footer">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-3 col-md-4 order-2 order-md-1 mt-4 mt-md-0 text-center text-md-start">
+                        <h6>Contact Us:</h6>
+                        <ul class="mt-2 contact-details">
+                            <li>
+                                <a href="mailto:hello@tinyswimming.co.uk" title="mail">
+                                    hello@tinyswimming.co.uk
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:07549914026" title="phone">
+                                    07549 914026
+                                </a>
+                            </li>
+                        </ul>
+                        <h6 class="mt-4">Connect With Us:</h6>
+                        <ul class="d-flex gap-2 mt-2 justify-content-center justify-content-md-start">
+                            <li>
+                                <a href="https://www.facebook.com/TinySwimming/" title="facebook" target="_blank">
+                                    <img src="images/social/fb.png" alt="fb icon" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/TinySwimming/" title="instagram" target="_blank">
+                                    <img src="images/social/ig.png" alt="ig icon" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="tiktok" target="_blank">
+                                    <img src="images/social/tt.png" alt="tt icon" />
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav-items mt-4">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Enrol Here</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="lessons.html">Lessons</a></li>
+                            <li><a href="#">Information</a></li>
+                            <li><a href="#">Term Dates</a></li>
+                            <li><a href="#">T&Cs</a></li>
+                            <li><a href="#">Parent Hub</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 order-1 order-md-2">
+                        <div class="mb-4 text-center">
+                            <img class="footer-logo" src="images/footer_logo.png" alt="footer logo" />
+                        </div>
+                        <div class="mb-4 text-center">
+                            <img class="footer-award" src="images/footer_award.png" alt="award" />
+                        </div>
+                        <ul class="d-flex flex-wrap flex-md-nowrap gap-3 align-items-center justify-content-center">
+                            <li>
+                                <img src="images/footer_certification/1.png" alt="certification" />
+                            </li>
+                            <li>
+                                <img src="images/footer_certification/2.png" alt="certification" />
+                            </li>
+                            <li>
+                                <img src="images/footer_certification/3.png" alt="certification" />
+                            </li>
+                            <li>
+                                <img src="images/footer_certification/4.png" alt="certification" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 order-3 mt-4 mt-md-0">
+                        <img src="images/footer_insta_feed.png" class="w-100" alt="insta feed" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p>&copy; Tiny Swimming Ltd. 2024  All rights reserved Design <a href="https://likewildfire.co.uk/" target="_blank">Like Wildfire</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Jquery Version -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Slick JS -->
+    <script src="js/slick.min.js"></script>
+    <script>
+        // Home Slider
+        let heroSlider = $('.home-slider');
+        heroSlider.on('init', function (e, slick) {
+            var $firstAnimatingElements = $('.slider-content:first-child').find('[data-animation]');
+            doAnimations($firstAnimatingElements);
+        });
+
+        heroSlider.on('beforeChange', function (e, slick, currentSlide, nextSlide) {
+            var $animatingElements = $('.slider-content[data-slick-index="' + nextSlide + '"]').find('[data-animation]');
+            doAnimations($animatingElements);
+        });
+
+        heroSlider.slick({
+            autoplay: true,
+            autoplaySpeed: 5000,
+            infinite: true,
+            speed: 500,
+            dots: true,
+            arrows: true,
+            fade: true,
+            prevArrow: '.prev',
+            nextArrow: '.next',
+            cssEase: 'linear',
+        });
+
+        function doAnimations(elements) {
+        var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+            elements.each(function () {
+                var $this = $(this);
+                var $animationDelay = $this.data('delay');
+                var $animationType = 'animated ' + $this.data('animation');
+                $this.css({
+                    'animation-delay': $animationDelay,
+                    '-webkit-animation-delay': $animationDelay
+                });
+                $this.addClass($animationType).one(animationEndEvents, function () {
+                    $this.removeClass($animationType);
+                });
+            });
+        }
+    </script>
+
+    <!-- Aos JS -->
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Main Script Sheet -->
+    <script src="js/script.js"></script>
+</body>
+</html>

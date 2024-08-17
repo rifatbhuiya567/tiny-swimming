@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title -->
+    <title>Lessons - Tiny Swimming</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.png">
+
+    <!-- Font Family -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive Style Sheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header Start -->
+    <header class="main-header">
+        <div class="position-relative">
+            <div class="container position-relative">
+                <div class="row pt-3 align-items-center justify-content-between">
+                    <div class="col-lg-4 col-4">
+                        <a href="index.html">
+                            <img src="images/logo.png" class="header-logo" alt="Tiny Swimming logo" />
+                        </a>
+                    </div>
+
+                    <div class="col-lg-6 col-8">
+                        <ul class="top-buttons d-flex justify-content-end gap-3">
+                            <li>
+                                <a href="#" target="_blank">Parent Hub</a>
+                            </li>
+                            <li>
+                                <a href="https://morleisure.co.uk/MyLessons/MSL_Registration.asp?oid=347" target="_blank">Register Here</a>
+                            </li>
+                        </ul>
+
+                        <nav class="d-flex align-items-center justify-content-end gap-4">
+                            <ul class="nav-items d-flex align-items-center gap-3">
+                                <li>
+                                    <a href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a class="active" href="lessons.html">Lessons</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            
+                            <div class="sidebar">
+                                <button class="solid-bar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                                    <i class="fa-solid fa-bars"></i>
+                                </button>
+
+                                <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                                    <div class="offcanvas-header">
+                                        <button type="button" class="close-sidebar" data-bs-dismiss="offcanvas" aria-label="Close">
+                                            <i class="fa-solid fa-xmark"></i>
+                                        </button>
+                                    </div>
+
+                                    <div class="offcanvas-body">
+                                        <ul>
+                                            <li>
+                                                <div class="d-flex gap-2 align-items-center">
+                                                    <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                    <a href="about.html">About Us</a>
+                                                </div>
+
+                                                <ul>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="about.html#our-approach">Our Approach</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="about.html#why-we-do">Why we do what we do</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="about.html#how-we-do">How we do what do we do</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="about.html#aqua-sensory">Aqua Sensory / Waters Touch</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="about.html#child-led">Child Led</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="about.html#empowering-parents">Empowering Parents</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="#">STA / Swim England</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="about.html#our-teachers">Our teachers</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <li>
+                                                <div class="d-flex gap-3 align-items-center">
+                                                    <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                    <a href="lessons.html">Lessons</a>
+                                                </div>
+
+                                                <ul>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="prices.html">Prices</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="#">Venues</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="calendar.html">Term Calendars</a>
+                                                    </li>
+                                                    <li class="d-flex gap-2 align-items-center">
+                                                        <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                        <a href="award.html">Award Scheme</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="d-flex gap-3 align-items-center">
+                                                <img src="images/sidebar-menu-indicator.png" alt="small turtle">
+                                                <a href="contact.html">Contact Us</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wavy-line">
+                <img src="images/header-wavy-line.png" class="w-100" alt="wavy line" />
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main> 
+        <!-- Lessons Banner Start -->
+        <div class="lessons-banner"></div>
+
+        <div class="lessons-banner-content">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-lg-12">
+                        <h1>Start your swimming journey with us...</h1>
+                        <p class="mt-3 px-0 px-lg-4">
+                            Gentle, fun, nurturng child-led classes for children aged 6 weeks to 4+ years old.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Lessons Banner End -->
+
+        <!-- Lessons Details List Start -->
+        <section class="lessons-details-list">
+            <div class="list-item">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0">
+                            <img src="images/lessons/lessons-details/logo/1.png" class="w-100" alt="logo" />
+                        </div>
+
+                        <div class="col-lg-10 col-md-9 position-relative">
+                            <h2>
+                                Baby Turtles
+                                <span class="d-block px-0 px-lg-4">Lessons for babies aged 6 weeks - 6 months old</span>
+                            </h2>
+                            <p class="mt-3 px-0 px-lg-4">
+                                Culpa qui officia deserunt mollit anim id est ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                            </p>
+                            <div class="text-end">
+                                <a href="#" class="btn-blue d-inline-flex gap-2 align-items-center">
+                                    <span>Enquire</span>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </div>
+                            <div class="small-turtle position-absolute">
+                                <img src="images/lessons/lessons-details/turtle/1.png" alt="turtle" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0 text-center">
+                            <img src="images/lessons/lessons-details/logo/2.png" class="w-100" alt="logo" />
+                        </div>
+
+                        <div class="col-lg-10 col-md-9 position-relative">
+                            <h2>
+                                Tiny Turtles
+                                <span class="d-block px-0 px-lg-4">Lessons for babies aged 6 months - 1 year old</span>
+                            </h2>
+                            <p class="mt-3 px-0 px-lg-4">
+                                Culpa qui officia deserunt mollit anim id est ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                            </p>
+                            <div class="text-end">
+                                <a href="#" class="btn-blue d-inline-flex gap-2 align-items-center">
+                                    <span>Enquire</span>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </div>
+                            <div class="small-turtle position-absolute">
+                                <img src="images/lessons/lessons-details/turtle/2.png" alt="turtle" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0 text-center">
+                            <img src="images/lessons/lessons-details/logo/3.png" class="w-100" alt="logo" />
+                        </div>
+
+                        <div class="col-lg-10 col-md-9 position-relative">
+                            <h2>
+                                Turtles 1
+                                <span class="d-block px-0 px-lg-4">Lessons for babies aged 1 - 2 years old</span>
+                            </h2>
+                            <p class="mt-3 px-0 px-lg-4">
+                                Culpa qui officia deserunt mollit anim id est ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                            </p>
+                            <div class="text-end">
+                                <a href="#" class="btn-blue d-inline-flex gap-2 align-items-center">
+                                    <span>Enquire</span>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </div>
+                            <div class="small-turtle position-absolute">
+                                <img src="images/lessons/lessons-details/turtle/3.png" alt="turtle" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0 text-center">
+                            <img src="images/lessons/lessons-details/logo/4.png" class="w-100" alt="logo" />
+                        </div>
+
+                        <div class="col-lg-10 col-md-9 position-relative">
+                            <h2>
+                                Turtles 2
+                                <span class="d-block px-0 px-lg-4">Lessons for babies aged 2 - 3 years old</span>
+                            </h2>
+                            <p class="mt-3 px-0 px-lg-4">
+                                Culpa qui officia deserunt mollit anim id est ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                            </p>
+                            <div class="text-end">
+                                <a href="#" class="btn-blue d-inline-flex gap-2 align-items-center">
+                                    <span>Enquire</span>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </div>
+                            <div class="small-turtle position-absolute">
+                                <img src="images/lessons/lessons-details/turtle/4.png" alt="turtle" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0 text-center">
+                            <img src="images/lessons/lessons-details/logo/5.png" class="w-100" alt="logo" />
+                        </div>
+
+                        <div class="col-lg-10 col-md-9 position-relative">
+                            <h2>
+                                Turtles 3
+                                <span class="d-block px-0 px-lg-4">Lessons for babies aged 3 - 4 years old</span>
+                            </h2>
+                            <p class="mt-3 px-0 px-lg-4">
+                                Culpa qui officia deserunt mollit anim id est ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                            </p>
+                            <div class="text-end">
+                                <a href="#" class="btn-blue d-inline-flex gap-2 align-items-center">
+                                    <span>Enquire</span>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </div>
+                            <div class="small-turtle position-absolute">
+                                <img src="images/lessons/lessons-details/turtle/5.png" alt="turtle" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0 text-center">
+                            <img src="images/lessons/lessons-details/logo/6.png" class="w-100" alt="logo" />
+                        </div>
+
+                        <div class="col-lg-10 col-md-9 position-relative">
+                            <h2>
+                                Turtles 4
+                                <span class="d-block px-0 px-lg-4">Lessons for babies aged 4 - 5 years old</span>
+                            </h2>
+                            <p class="mt-3 px-0 px-lg-4">
+                                Culpa qui officia deserunt mollit anim id est ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                            </p>
+                            <div class="text-end">
+                                <a href="#" class="btn-blue d-inline-flex gap-2 align-items-center">
+                                    <span>Enquire</span>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </div>
+                            <div class="small-turtle position-absolute">
+                                <img src="images/lessons/lessons-details/turtle/6.png" alt="turtle" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-2 col-md-3 col-4 mb-4 mb-md-0 text-center">
+                            <img src="images/lessons/lessons-details/logo/7.png" class="w-100" alt="logo" />
+                        </div>
+
+                        <div class="col-lg-10 col-md-9 position-relative">
+                            <h2>
+                                Turtles 7
+                                <span class="d-block px-0 px-lg-4">Lessons for babies aged 4+ independent swimmer line</span>
+                            </h2>
+                            <p class="mt-3 px-0 px-lg-4">
+                                Culpa qui officia deserunt mollit anim id est ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                            </p>
+                            <div class="text-end">
+                                <a href="#" class="btn-blue d-inline-flex gap-2 align-items-center">
+                                    <span>Enquire</span>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </div>
+                            <div class="small-turtle position-absolute">
+                                <img src="images/lessons/lessons-details/turtle/7.png" alt="turtle" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Lessons Details List End -->
+    </main>
+    <!-- Main End -->
+
+    <!-- BTT Start -->
+    <div class="btt">
+        <img src="images/btt.png" alt="btt icon" />
+    </div>
+    <!-- BTT End -->
+
+    <!-- Footer Start -->
+    <footer class="position-relative">
+        <div class="main-footer">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-3 col-md-4 order-2 order-md-1 mt-4 mt-md-0 text-center text-md-start">
+                        <h6>Contact Us:</h6>
+                        <ul class="mt-2 contact-details">
+                            <li>
+                                <a href="mailto:hello@tinyswimming.co.uk" title="mail">
+                                    hello@tinyswimming.co.uk
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:07549914026" title="phone">
+                                    07549 914026
+                                </a>
+                            </li>
+                        </ul>
+                        <h6 class="mt-4">Connect With Us:</h6>
+                        <ul class="d-flex gap-2 mt-2 justify-content-center justify-content-md-start">
+                            <li>
+                                <a href="https://www.facebook.com/TinySwimming/" title="facebook" target="_blank">
+                                    <img src="images/social/fb.png" alt="fb icon" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/TinySwimming/" title="instagram" target="_blank">
+                                    <img src="images/social/ig.png" alt="ig icon" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="tiktok" target="_blank">
+                                    <img src="images/social/tt.png" alt="tt icon" />
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav-items mt-4">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Enrol Here</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="lessons.html">Lessons</a></li>
+                            <li><a href="#">Information</a></li>
+                            <li><a href="#">Term Dates</a></li>
+                            <li><a href="#">T&Cs</a></li>
+                            <li><a href="#">Parent Hub</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 order-1 order-md-2">
+                        <div class="mb-4 text-center">
+                            <img class="footer-logo" src="images/footer_logo.png" alt="footer logo" />
+                        </div>
+                        <div class="mb-4 text-center">
+                            <img class="footer-award" src="images/footer_award.png" alt="award" />
+                        </div>
+                        <ul class="d-flex flex-wrap flex-md-nowrap gap-3 align-items-center justify-content-center">
+                            <li>
+                                <img src="images/footer_certification/1.png" alt="certification" />
+                            </li>
+                            <li>
+                                <img src="images/footer_certification/2.png" alt="certification" />
+                            </li>
+                            <li>
+                                <img src="images/footer_certification/3.png" alt="certification" />
+                            </li>
+                            <li>
+                                <img src="images/footer_certification/4.png" alt="certification" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 order-3 mt-4 mt-md-0">
+                        <img src="images/footer_insta_feed.png" class="w-100" alt="insta feed" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p>&copy; Tiny Swimming Ltd. 2024  All rights reserved Design <a href="https://likewildfire.co.uk/" target="_blank">Like Wildfire</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Jquery Version -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Main Script Sheet -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,987 @@
+@media (min-width: 1700px) {
+    .main-header .wavy-line {
+        bottom: -68px;
+    }
+
+    .main-header.shrink-header .wavy-line {
+        bottom: -60px;
+    }
+    
+    .slider-content .overlay {
+        padding: 116px 0;
+    }
+
+    .welcome {
+        height: 770px;
+    }
+
+    .journey .class-model-4 {
+        left: 324px;
+    }
+
+    .journey .class-model-6 {
+        top: 1050px;
+        right: 530px;
+    }
+
+    .journey .class-model-7 {
+        bottom: 320px;
+    }
+
+    .journey .class-model-8 {
+        bottom: 70px;
+        right: 503px;
+    }
+
+    .our-approach {
+        height: 760px;
+    }
+
+    .section-2 {
+        height: 854px;
+    }
+
+    .section-4 {
+        height: 626px;
+    }
+
+    .lessons-banner {
+        height: 864px;
+    }
+
+    .lessons-banner-content {
+        height: 372px;
+        transform: translateY(-52px);
+        -webkit-transform: translateY(-52px);
+        -moz-transform: translateY(-52px);
+        -ms-transform: translateY(-52px);
+        -o-transform: translateY(-52px);
+    }
+
+    .lessons-list .list-item {
+        height: 380px;
+    }
+
+    .lessons-list .list-item:first-child, 
+    .lessons-list .list-item:last-child {
+        height: 280px;
+        color: var(--primary_color);
+    }
+
+    .lessons-list .list-item:nth-child(3) {
+        transform: translateY(-64px);
+        -webkit-transform: translateY(-64px);
+        -moz-transform: translateY(-64px);
+        -ms-transform: translateY(-64px);
+        -o-transform: translateY(-64px);
+    }
+
+    .lessons-details-list .list-item a {
+        margin-top: 12px;
+    }
+
+    .contact-options {
+        height: 730px;
+    }
+
+    .contact-banner {
+        height: 864px;
+    }
+
+    .contact-banner-content {
+        height: 326px;
+        transform: translateY(-58px);
+        -webkit-transform: translateY(-58px);
+        -moz-transform: translateY(-58px);
+        -ms-transform: translateY(-58px);
+        -o-transform: translateY(-58px);
+}
+}
+
+@media (min-width: 1400px) and (max-width: 1699.98px) {
+    .main-header .wavy-line {
+        bottom: -55px;
+    }
+
+    .main-header.shrink-header .wavy-line {
+        bottom: -48px;
+    }
+    
+    .slider-content .overlay {
+        padding: 80px 0;
+    }
+
+    .welcome {
+        height: 600px;
+    }
+
+    .journey .class-model-4 {
+        left: 324px;
+    }
+
+    .journey .class-model-6 {
+        top: 1050px;
+        right: 530px;
+    }
+
+    .journey .class-model-7 {
+        bottom: 320px;
+    }
+
+    .journey .class-model-8 {
+        bottom: 70px;
+        right: 503px;
+    }
+
+    .our-approach {
+        height: 600px;
+    }
+
+    .section-2 {
+        height: 664px;
+    }
+
+    .section-4 {
+        height: 480px;
+    }
+
+    .lessons-banner {
+        height: 700px;
+    }
+
+    .lessons-banner-content {
+        height: 300px;
+        transform: translateY(-42px);
+        -webkit-transform: translateY(-42px);
+        -moz-transform: translateY(-42px);
+        -ms-transform: translateY(-42px);
+        -o-transform: translateY(-42px);
+}
+
+    .lessons-list .list-item {
+        height: 300px;
+    }
+
+    .lessons-list .list-item:first-child, 
+    .lessons-list .list-item:last-child {
+        height: 220px;
+        color: var(--primary_color);
+    }
+
+    .lessons-details-list .list-item a {
+        margin-top: 8px;
+    }
+
+    .contact-options {
+        height: 490px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .main-header.shrink-header .wavy-line {
+        bottom: -42px;
+    }
+
+    .journey .class-model-6 {
+        top: 980px;
+    }
+}
+
+@media(max-width: 1399.98px) {
+    .slider .prev, .slider .next {
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    :root {
+        --h1: 30px;
+        --h2: 27px;
+        --h3: 25px;
+        --h4: 22px;
+        --h5: 19px;
+        --h6: 17px;
+        --lg: 17px;
+        --bs: 16px;
+        --sm: 14px;
+    }
+
+    .main-header .wavy-line {
+        bottom: -44px;
+    }
+
+    .main-header.shrink-header .wavy-line {
+        bottom: -36px;
+    }
+
+    .main-header .header-logo {
+        width: 140px;
+    }
+
+    .main-header.shrink-header .header-logo {
+        width: 120px;
+    }
+
+    .slider-content {
+        height: 650px;
+    }
+
+    .welcome {
+        height: 440px;
+    }
+
+    .journey .class-model-1 img {
+        width: 150px;
+    }
+
+    .journey .class-model-1 {
+        left: 100px;
+        top: 86px;
+    }
+
+    .journey p.bold {
+        font-size: 18px;
+    }
+
+    .journey .class-model-2 img, .journey .class-model-3 img, .journey .class-model-4 img, .journey .class-model-5 img, .journey .class-model-6 img, .journey .class-model-7 img, .journey .class-model-8 img {
+        width: 140px;
+    }
+
+    .journey .class-model-2 {
+        top: 150px;
+        right: 285px;
+    }
+
+    .journey .class-model-3 {
+        top: 338px;
+        right: 60px;
+    }
+
+    .journey .class-model-4 {
+        top: 425px;
+        left: 240px;
+    }
+
+    .journey .class-model-5 {
+        top: 570px;
+        right: 240px;
+    }
+
+    .journey .class-model-6 {
+        top: 844px;
+        right: 410px;
+    }
+
+    .journey .class-model-7 {
+        bottom: 282px;
+        left: 125px;
+    }
+
+    .journey .class-model-8 {
+        bottom: 44px;
+        right: 390px;
+    }
+
+    .our-approach {
+        height: 424px;
+    }
+
+    .section-2 {
+        height: 464px;
+    }
+
+    .lessons-banner {
+        height: 570px;
+    }
+
+    .lessons-list .list-item:first-child, .lessons-list .list-item:last-child {
+        height: 174px;
+    }
+
+    .lessons-list .list-item {
+        height: 254px;
+    }
+
+    .lessons-details-list .list-item a {
+        margin-top: 8px;
+    }
+
+    .main-footer .footer-logo {
+        width: 130px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .text-lg {
+        font-size: var(--lg);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    :root {
+        --h1: 28px;
+        --h2: 25px;
+        --h3: 23px;
+        --h4: 21px;
+        --h5: 18px;
+        --h6: 16px;
+        --lg: 16px;
+        --bs: 15px;
+        --sm: 13px;
+    }
+
+    .main-header .wavy-line {
+        bottom: -36px;
+    }
+
+    .main-header.shrink-header .wavy-line {
+        bottom: -28px;
+    }
+
+    .main-header .header-logo {
+        width: 120px;
+    }
+
+    .main-header.shrink-header .header-logo {
+        width: 100px;
+    }
+
+    .slider-content {
+        height: 510px;
+    }
+
+    .slider-content .overlay {
+        padding: 40px 0;
+    }
+
+    .welcome {
+        height: 380px;
+    }
+
+    .journey .class-model-1 img {
+        width: 130px;
+    }
+
+    .journey .class-model-1 {
+        left: 0;
+        top: 100px;
+    }
+
+    .journey p.bold {
+        font-size: 16px;
+    }
+
+    .journey .class-model-2 img, .journey .class-model-3 img, .journey .class-model-4 img, .journey .class-model-5 img, .journey .class-model-6 img, .journey .class-model-7 img, .journey .class-model-8 img {
+        width: 120px;
+    }
+
+    .journey .class-model-2 {
+        top: 150px;
+        right: 200px;
+    }
+
+    .journey .class-model-3 {
+        top: 310px;
+        right: 0;
+    }
+
+    .journey .class-model-4 {
+        top: 425px;
+        left: 150px;
+    }
+
+    .journey .class-model-5 {
+        top: 540px;
+        right: 150px;
+    }
+
+    .journey .class-model-6 {
+        top: 780px;
+        right: 300px;
+    }
+
+    .journey .class-model-7 {
+        bottom: 260px;
+        left: 40px;
+    }
+
+    .journey .class-model-8 {
+        bottom: 44px;
+        right: 270px;
+    }
+
+    .our-approach {
+        height: 340px;
+    }
+
+    .section-1, .section-3, .section-5 {
+        padding: 60px 0;
+    }
+
+    .section-2 {
+        height: auto;
+        padding: 80px 0;
+    }
+
+    .section-2 img {
+        width: 100px !important;
+    }
+
+    .section-4 {
+        height: auto;
+        padding: 80px 0;
+    }
+
+    .section-4 img {
+        width: 160px;
+    }
+
+    .lessons-banner {
+        height: 460px;
+    }
+
+    .lessons-banner-content {
+        height: 192px;
+        transform: translateY(-38px);
+        -webkit-transform: translateY(-30px);
+        -moz-transform: translateY(-38px);
+        -ms-transform: translateY(-38px);
+        -o-transform: translateY(-38px);
+    }
+
+    .lessons-list .list-item a {
+        margin-top: 8px;
+    }
+
+    .lessons-list .list-item:first-child, .lessons-list .list-item:last-child {
+        height: 160px;
+    }
+
+    .lessons-list .list-item:first-child, .lessons-list .list-item:last-child {
+        height: 200px;
+        margin-bottom: 0px;
+    }
+
+    .lessons-list .list-item {
+        height: auto;
+        padding: 60px 0;
+    }
+
+    .lessons-details-list .list-item a {
+        margin-top: 8px;
+    }
+
+    .main-footer .footer-logo {
+        width: 110px;
+    }
+
+    .journey .watermark-top-right {
+        top: -100px;
+    }
+
+    .watermark-top-left img,
+    .watermark-top-right img,
+    .watermark-top-middle img,
+    .watermark-bottom-left img,
+    .watermark-bottom-right img {
+        width: 60% !important;
+    }
+
+    .contact-options {
+        height: 340px;
+    }
+
+    .contact-banner {
+        height: 420px;
+    }
+
+    .contact-banner-content {
+        height: 155px;
+        transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -o-transform: translateY(-30px);
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    :root {
+        --h1: 26px;
+        --h2: 23px;
+        --h3: 21px;
+        --h4: 19px;
+        --h5: 17px;
+        --h6: 15px;
+        --lg: 15px;
+        --bs: 15px;
+        --sm: 13px;
+    }
+
+    .main-header .wavy-line {
+        bottom: -32px;
+    }
+
+    .main-header.shrink-header .wavy-line {
+        bottom: -24px;
+    }
+
+    .main-header .header-logo {
+        width: 120px;
+    }
+
+    .main-header.shrink-header .header-logo {
+        width: 100px;
+    }
+
+    .slider-content {
+        height: 360px;
+    }
+
+    .slider-content .overlay {
+        padding: 40px 0;
+    }
+
+    .journey .class-model-1 img {
+        width: 110px;
+    }
+
+    .journey .class-model-1 {
+        left: 0;
+        top: 110px;
+    }
+
+    .journey p.bold {
+        font-size: 16px;
+    }
+
+    .journey .class-model-2 img, .journey .class-model-3 img, .journey .class-model-4 img, .journey .class-model-5 img, .journey .class-model-6 img, .journey .class-model-7 img, .journey .class-model-8 img {
+        width: 100px;
+    }
+
+    .journey .class-model-2 {
+        top: 150px;
+        right: 120px;
+    }
+
+    .journey .class-model-3 {
+        top: 290px;
+        right: 0;
+    }
+
+    .journey .class-model-4 {
+        top: 350px;
+        left: 80px;
+    }
+
+    .journey .class-model-5 {
+        top: 420px;
+        right: 120px;
+    }
+
+    .journey .class-model-6 {
+        top: 650px;
+        right: 180px;
+    }
+
+    .journey .class-model-7 {
+        bottom: 180px;
+        left: 40px;
+    }
+
+    .journey .class-model-8 {
+        bottom: 44px;
+        right: 180px;
+    }
+
+    .section-2 img {
+        width: 100px !important;
+    }
+
+    .section-4 img {
+        width: 160px;
+    }
+
+    .lessons-banner {
+        height: 360px;
+    }
+
+    .lessons-list .list-item a {
+        width: 140px;
+        padding: 6px 0;
+        font-size: var(--bs);
+    }
+
+    .lessons-list .list-item {
+        height: auto;
+        padding: 60px 0;
+    }
+
+    .lessons-details-list .list-item a {
+        margin-top: 8px;
+    }
+
+    .main-footer .footer-logo {
+        width: 100px;
+    }
+
+    .main-footer .footer-award {
+        width: 90px;
+    }
+
+    .journey .watermark-top-right {
+        top: -100px;
+    }
+
+    .watermark-top-left img,
+    .watermark-top-right img,
+    .watermark-top-middle img,
+    .watermark-bottom-left img,
+    .watermark-bottom-right img {
+        width: 50% !important;
+    }
+
+    .contact-banner {
+        height: 300px;
+    }
+}
+
+@media(max-width: 767.98px) {
+    .contact-form .w-50 {
+        width: 100% !important;
+    }
+
+    .award .client-logo img {
+        width: 40%;
+    }
+
+    .contact-banner-content h2 {
+        font-size: var(--h3);
+    }
+
+    .contact-banner-content h2 br {
+        display: none;
+    }
+
+    .contact-banner-content {
+        height: auto;
+        padding: 60px 0;
+        color: var(--white_color);
+        background: var(--primary_thin);
+        transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);
+        -moz-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        -o-transform: translateY(-20px);
+    }
+
+    .contact-options {
+        height: auto;
+        padding: 60px 0;
+        background: #33beda;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        margin-bottom: 20px;
+    }
+
+    .lessons-details-list .list-item .small-turtle {
+        top: 0px;
+    }
+
+    .lessons-list .list-item:nth-child(2) {
+        color: var(--white_color);
+        background: #33beda;
+    }
+
+    .lessons-list .list-item:nth-child(3) {
+        color: var(--primary_bold);
+        background: var(--primary_thin);
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+
+    .lessons-list .list-item a {
+        margin-top: 8px;
+    }
+
+    .lessons-banner-content {
+        height: auto;
+        background: #33beda;
+        padding: 60px 0;
+        transform: translateY(-24px);
+        -webkit-transform: translateY(-24px);
+        -moz-transform: translateY(-24px);
+        -ms-transform: translateY(-24px);
+        -o-transform: translateY(-24px);
+    }
+
+    .our-approach {
+        height: auto;
+        padding: 80px 0;
+        background: #33beda;
+    }
+
+    .section-2 {
+        height: auto;
+        padding: 60px 0;
+        background: #8d68ad;
+    }
+    
+    .section-4 {
+        height: auto;
+        padding: 60px 0;
+        background: #a7dfef;
+    }
+
+    .section-1, .section-3, .section-5 {
+        padding: 60px 0;
+    }
+
+    .slider-content .overlay {
+        padding: 40px 0;
+        background: var(--primary_thin);
+        opacity: .8;
+    }
+
+    .welcome {
+        height: auto;
+        padding: 60px 0;
+        background: #33beda;
+    }
+
+    .home-slider .slick-dots li button {
+        height: 10px;
+        width: 10px;
+    }
+
+    .btt img {
+        width: 40px;
+    }
+
+    .lessons-list .list-item:first-child, .lessons-list .list-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .lessons-list .list-item:first-child, .lessons-list .list-item:last-child {
+        height: auto;
+    }
+}
+
+@media(max-width: 575.98px) {
+    :root {
+        --h1: 24px;
+        --h2: 20px;
+        --h3: 19px;
+        --h4: 17px;
+        --h5: 16px;
+        --h6: 14px;
+        --lg: 14px;
+        --bs: 14px;
+        --sm: 12px;
+    }
+
+    .main-header .offcanvas {
+        width: 100%;
+    }
+
+    .sidebar ul li a {
+        font-size: 18px;
+    }
+
+    .main-header .wavy-line {
+        bottom: -28px;
+    }
+
+    .main-header .nav-items.gap-3 {
+        gap: 8px !important;
+    }
+
+    .main-header.shrink-header .wavy-line {
+        bottom: -20px;
+    }
+
+    .main-header .header-logo {
+        width: 90px;
+    }
+
+    .main-header.shrink-header .header-logo {
+        width: 80px;
+    }
+
+    .slider-content {
+        height: 280px;
+    }
+
+    .slider-content .overlay {
+        padding: 20px 0;
+    }
+
+    .slider-content .overlay h2 {
+        font-weight: 400;
+    }
+
+    .journey .class-model-1 img {
+        width: 90px;
+    }
+
+    .journey .class-model-1 {
+        left: 8px;
+        top: 100px;
+    }
+
+    .journey p.bold {
+        font-size: 14px;
+    }
+
+    .journey .class-model-2 img, .journey .class-model-3 img, .journey .class-model-4 img, .journey .class-model-5 img, .journey .class-model-6 img, .journey .class-model-7 img, .journey .class-model-8 img {
+        width: 80px;
+    }
+
+    .journey .class-model-2 {
+        top: 120px;
+        right: 50px;
+    }
+
+    .journey .class-model-3 {
+        top: 240px;
+        right: 8px;
+    }
+
+    .journey .class-model-4 {
+        top: 300px;
+        left: 80px;
+    }
+
+    .journey .class-model-5 {
+        top: 360px;
+        right: 90px;
+    }
+
+    .journey .class-model-6 {
+        top: 500px;
+        right: 180px;
+    }
+
+    .journey .class-model-7 {
+        bottom: 160px;
+        left: 20px;
+    }
+
+    .journey .class-model-8 {
+        bottom: 20px;
+        right: 160px;
+    }
+
+    .section-2 img {
+        width: 100px !important;
+    }
+
+    .section-4 img {
+        width: 160px;
+    }
+
+    .lessons-banner {
+        height: 250px;
+    }
+
+    .lessons-list .list-item a {
+        width: 140px;
+        padding: 6px 0;
+        font-size: var(--bs);
+    }
+
+    .lessons-list .list-item {
+        height: auto;
+        padding: 60px 0;
+    }
+
+    .lessons-details-list .list-item a {
+        margin-top: 8px;
+    }
+
+    .main-footer .footer-logo {
+        width: 90px;
+    }
+
+    .main-footer .footer-award {
+        width: 80px;
+    }
+
+    .journey .watermark-top-right {
+        top: -100px;
+    }
+
+    .watermark-top-left img,
+    .watermark-top-right img,
+    .watermark-top-middle img,
+    .watermark-bottom-left img,
+    .watermark-bottom-right img {
+        width: 50% !important;
+    }
+
+    .contact-banner {
+        height: 240px;
+    }
+
+    .welcome,
+    .lessons-banner-content,
+    .our-approach,
+    .section-2,
+    .section-4 {
+        padding: 40px 0;
+    }
+
+    .journey h2 {
+        margin-bottom: 4px;
+    }
+
+    .lessons-details-list .list-item .small-turtle img {
+        width: 40px;
+    }
+
+    .lessons-details-list .list-item .small-turtle {
+        top: 0px;
+        right: 8px;
+    }
+
+    .calendar td.px-5 {
+        padding-left:  10px !important;
+        padding-right:  10px !important;
+    }
+
+    .contact-banner-content {
+        padding: 40px 0;
+    }
+
+    .contact-banner-content h2,
+    .contact-form h2 {
+        font-weight: 400;
+        font-size: var(--h3);
+    }
+
+    .lessons-banner-content h1 {
+        font-size: var(--h3);
+        font-weight: 400;
+    }
+
+    .main-header .nav-items a {
+        font-size: var(--bs);
+        letter-spacing: 0;
+    }
+
+    nav.d-flex.gap-4 {
+        gap: 10px !important;
+    }
+
+    .sidebar .solid-bar {
+        font-size: 20px;
+        height: 32px;
+        width: 32px;
+    }
+}
