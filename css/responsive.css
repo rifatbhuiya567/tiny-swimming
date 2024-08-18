@@ -1,18 +1,4 @@
 @media (min-width: 1700px) {
-    .main-header .wavy-line {
-        bottom: -68px;
-    }
-
-    .main-header.shrink-header .wavy-line {
-        bottom: -62px;
-    }
-    
-    .slider-content .overlay {
-        padding: 116px 0;
-        background: #85cee4;
-        opacity: .8;
-    }
-
     .journey .class-model-4 {
         left: 324px;
     }
@@ -39,63 +25,13 @@
         margin-top: 12px;
     }
 
-    .contact-banner {
-        height: 864px;
-    }
-    
-    .welcome,
-    .our-approach,
-    .section-2,
-    .contact-options {
-        padding: 240px 0;
-    }
-
-    .section-4 {
-        padding: 200px 0;
-    }
-
-    .lessons-banner-content {
-        padding: 120px 0;
-        background: #26beda;
-        transform: translateY(-44px);
-        -webkit-transform: translateY(-44px);
-        -moz-transform: translateY(-44px);
-        -ms-transform: translateY(-44px);
-        -o-transform: translateY(-44px);
-    }
-
-    .contact-banner-content {
-        padding: 120px 0;
-        background: #85cee4;
-        transform: translateY(-72px);
-        -webkit-transform: translateY(-72px);
-        -moz-transform: translateY(-72px);
-        -ms-transform: translateY(-72px);
-        -o-transform: translateY(-72px);
-}
-
-    .lessons-list .list-item:first-child, .lessons-list .list-item:last-child {
+    .lessons-list .list-item:first-child, 
+    .lessons-list .list-item:last-child {
         padding: 90px 0;
-    }
-
-    .lessons-list .list-item {
-        padding: 140px 0;
     }
 }
 
 @media (min-width: 1400px) and (max-width: 1699.98px) {
-    .main-header .wavy-line {
-        bottom: -52px;
-    }
-
-    .main-header.shrink-header .wavy-line {
-        bottom: -44px;
-    }
-    
-    .slider-content .overlay {
-        padding: 80px 0;
-    }
-
     .journey .class-model-4 {
         left: 324px;
     }
@@ -122,48 +58,15 @@
         margin-top: 8px;
     }
 
-    .welcome,
-    .our-approach,
-    .section-2,
-    .contact-options {
-        padding: 200px 0;
-    }
-
-    .section-4 {
-        padding: 160px 0;
-    }
-
-    .lessons-banner-content {
-        padding: 110px 0;
-        transform: translateY(-42px);
-        -webkit-transform: translateY(-42px);
-        -moz-transform: translateY(-42px);
-        -ms-transform: translateY(-42px);
-        -o-transform: translateY(-42px);
-    }
-
-    .lessons-list .list-item:first-child, .lessons-list .list-item:last-child {
+    .lessons-list .list-item:first-child, 
+    .lessons-list .list-item:last-child {
         padding: 80px 0;
-    }
-
-    .lessons-list .list-item {
-        padding: 120px 0;
     }
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-    .main-header.shrink-header .wavy-line {
-        bottom: -42px;
-    }
-
     .journey .class-model-6 {
         top: 980px;
-    }
-}
-
-@media(max-width: 1399.98px) {
-    .slider .prev, .slider .next {
-        display: none !important;
     }
 }
 
@@ -180,12 +83,8 @@
         --sm: 14px;
     }
 
-    .main-header .wavy-line {
-        bottom: -44px;
-    }
-
-    .main-header.shrink-header .wavy-line {
-        bottom: -36px;
+    body main {
+        margin-top: 120px;
     }
 
     .main-header .header-logo {
@@ -261,17 +160,6 @@
         width: 60%;
     }
 
-    .welcome,
-    .our-approach,
-    .section-2,
-    .contact-options {
-        padding: 180px 0;
-    }
-
-    .section-4 {
-        padding: 80px 0;
-    }
-
     .lessons-banner {
         height: 570px;
     }
@@ -289,6 +177,10 @@
     .text-lg {
         font-size: var(--lg);
     }
+
+    .slider .prev, .slider .next {
+        display: none !important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -304,12 +196,20 @@
         --sm: 13px;
     }
 
-    .main-header .wavy-line {
-        bottom: -36px;
+    body main {
+        margin-top: 120px;
     }
 
-    .main-header.shrink-header .wavy-line {
-        bottom: -28px;
+    .main-header .bg {
+        padding-bottom: 2px;
+    }
+
+    .main-header .wavy-line {
+        transform: translateY(-2px);
+        -webkit-transform: translateY(-2px);
+        -moz-transform: translateY(-2px);
+        -ms-transform: translateY(-2px);
+        -o-transform: translateY(-2px);
     }
 
     .main-header .header-logo {
@@ -322,14 +222,6 @@
 
     .slider-content {
         height: 510px;
-    }
-
-    .slider-content .overlay {
-        padding: 40px 0;
-    }
-
-    .welcome {
-        padding: 80px 0;
     }
 
     .journey .class-model-1 img {
@@ -393,67 +285,21 @@
         width: 60%;
     }
 
-    .welcome,
-    .our-approach,
-    .section-2,
-    .contact-options {
-        padding: 100px 0;
-    }
-
-    .section-4 {
-        padding: 80px 0;
-    }
-
-    .lessons-banner-content {
-        padding: 60px 0;
-        transform: translateY(-30px);
-        -webkit-transform: translateY(-30px);
-        -moz-transform: translateY(-30px);
-        -ms-transform: translateY(-30px);
-        -o-transform: translateY(-30px);
-}
-
-    .lessons-list .list-item {
-        padding: 44px 0;
-    }
-
     .lessons-list .list-item:first-child, 
     .lessons-list .list-item:last-child {
         padding: 44px 0;
         margin-bottom: 0;
     }
 
-    .lessons-list .list-item:nth-child(2) {
-        background: #26beda;
-    }
-
-    .lessons-list .list-item:nth-child(3) {
-        background: #85cee4;
-        transform: translateY(0);
-        -webkit-transform: translateY(0);
-        -moz-transform: translateY(0);
-        -ms-transform: translateY(0);
-        -o-transform: translateY(0);
-    }
-
-    .contact-banner-content {
-        padding: 32px 0;
-        transform: translateY(-29px);
-        -webkit-transform: translateY(-29px);
-        -moz-transform: translateY(-29px);
-        -ms-transform: translateY(-29px);
-        -o-transform: translateY(-29px);
-    }
-
     .section-1, .section-3, .section-5 {
         padding: 60px 0;
     }
 
-    .section-2 img {
+    .section-2 .container img {
         width: 100px !important;
     }
 
-    .section-4 img {
+    .section-4 .container img {
         width: 160px;
     }
 
@@ -491,16 +337,24 @@
         --sm: 13px;
     }
 
-    .main-header .wavy-line {
-        bottom: -32px;
+    body main {
+        margin-top: 120px;
     }
 
-    .main-header.shrink-header .wavy-line {
-        bottom: -24px;
+    .main-header .bg {
+        padding-bottom: 6px;
     }
+
+    .main-header .wavy-line {
+        transform: translateY(-6px);
+        -webkit-transform: translateY(-6px);
+        -moz-transform: translateY(-6px);
+        -ms-transform: translateY(-6px);
+        -o-transform: translateY(-6px);
+}
 
     .main-header .header-logo {
-        width: 120px;
+        width: 110px;
     }
 
     .main-header.shrink-header .header-logo {
@@ -509,10 +363,6 @@
 
     .slider-content {
         height: 360px;
-    }
-
-    .slider-content .overlay {
-        padding: 40px 0;
     }
 
     .journey .class-model-1 img {
@@ -567,11 +417,11 @@
         right: 180px;
     }
 
-    .section-2 img {
+    .section-2 .container img {
         width: 100px !important;
     }
 
-    .section-4 img {
+    .section-4 .container img {
         width: 160px;
     }
 
@@ -610,13 +460,6 @@
         width: 55%;
     }
 
-    .welcome,
-    .our-approach,
-    .section-2,
-    .contact-options {
-        padding: 72px 0;
-    }
-
     .contact-options {
         transform: translateY(-10px);
         -webkit-transform: translateY(-10px);
@@ -628,20 +471,6 @@
     .contact-form h2 {
         font-size: var(--h3);
         margin-top: 16px;
-    }
-
-    .section-4 {
-        padding: 60px 0;
-    }
-
-    .lessons-banner-content {
-        padding: 36px 0;
-        background: #26beda;
-        transform: translateY(-24px);
-        -webkit-transform: translateY(-24px);
-        -moz-transform: translateY(-24px);
-        -ms-transform: translateY(-24px);
-        -o-transform: translateY(-24px);
     }
 
     .lessons-banner-content h1 {
@@ -660,29 +489,6 @@
     .lessons-list .list-item:last-child {
         padding: 40px 0;
         margin-bottom: 0;
-    }
-
-    .lessons-list .list-item:nth-child(2) {
-        background: #26beda;
-    }
-
-    .lessons-list .list-item:nth-child(3) {
-        background: #85cee4;
-        transform: translateY(0);
-        -webkit-transform: translateY(0);
-        -moz-transform: translateY(0);
-        -ms-transform: translateY(0);
-        -o-transform: translateY(0);
-    }
-
-    .contact-banner-content {
-        padding: 32px 0;
-        background: #85cee4;
-        transform: translateY(-29px);
-        -webkit-transform: translateY(-29px);
-        -moz-transform: translateY(-29px);
-        -ms-transform: translateY(-29px);
-        -o-transform: translateY(-29px);
     }
 }
 
@@ -703,10 +509,6 @@
         display: none;
     }
 
-    .contact-options {
-        padding: 60px 0;
-    }
-
     .lessons-details-list .list-item .small-turtle {
         top: 0px;
     }
@@ -717,12 +519,6 @@
 
     .section-1, .section-3, .section-5 {
         padding: 60px 0;
-    }
-
-    .slider-content .overlay {
-        padding: 40px 0;
-        background: var(--primary_thin);
-        opacity: .8;
     }
 
     .home-slider .slick-dots li button {
@@ -748,6 +544,22 @@
         --sm: 12px;
     }
 
+    body main {
+        margin-top: 100px;
+    }
+
+    .main-header .bg {
+        padding-bottom: 8px;
+    }
+
+    .main-header .wavy-line {
+        transform: translateY(-8px);
+        -webkit-transform: translateY(-8px);
+        -moz-transform: translateY(-8px);
+        -ms-transform: translateY(-8px);
+        -o-transform: translateY(-8px);
+}
+
     .main-header .offcanvas {
         width: 100%;
     }
@@ -756,16 +568,8 @@
         font-size: 18px;
     }
 
-    .main-header .wavy-line {
-        bottom: -28px;
-    }
-
     .main-header .nav-items.gap-3 {
         gap: 8px !important;
-    }
-
-    .main-header.shrink-header .wavy-line {
-        bottom: -20px;
     }
 
     .main-header .header-logo {
@@ -778,10 +582,6 @@
 
     .slider-content {
         height: 280px;
-    }
-
-    .slider-content .overlay {
-        padding: 20px 0;
     }
 
     .slider-content .overlay h2 {
@@ -844,7 +644,7 @@
         width: 100px !important;
     }
 
-    .section-4 img {
+    .section-4 .container img {
         width: 160px;
     }
 
@@ -872,14 +672,6 @@
 
     .contact-banner {
         height: 240px;
-    }
-
-    .welcome,
-    .lessons-banner-content,
-    .our-approach,
-    .section-2,
-    .section-4 {
-        padding: 40px 0;
     }
 
     .journey h2 {
@@ -937,13 +729,6 @@
         width: 50%;
     }
 
-    .welcome,
-    .our-approach,
-    .section-2,
-    .contact-options {
-        padding: 60px 0;
-    }
-
     .contact-options {
         transform: translateY(-10px);
         -webkit-transform: translateY(-10px);
@@ -957,20 +742,6 @@
         margin-top: 16px;
     }
 
-    .section-4 {
-        padding: 48px 0;
-    }
-
-    .lessons-banner-content {
-        padding: 36px 0;
-        background: #26beda;
-        transform: translateY(-24px);
-        -webkit-transform: translateY(-24px);
-        -moz-transform: translateY(-24px);
-        -ms-transform: translateY(-24px);
-        -o-transform: translateY(-24px);
-    }
-
     .lessons-banner-content h1 {
         font-size: var(--h3);
     }
@@ -979,36 +750,9 @@
         margin-top: 8px !important;
     }
 
-    .lessons-list .list-item {
-        padding: 40px 0;
-    }
-
     .lessons-list .list-item:first-child, 
     .lessons-list .list-item:last-child {
         padding: 40px 0;
         margin-bottom: 0;
-    }
-
-    .lessons-list .list-item:nth-child(2) {
-        background: #26beda;
-    }
-
-    .lessons-list .list-item:nth-child(3) {
-        background: #85cee4;
-        transform: translateY(0);
-        -webkit-transform: translateY(0);
-        -moz-transform: translateY(0);
-        -ms-transform: translateY(0);
-        -o-transform: translateY(0);
-    }
-
-    .contact-banner-content {
-        padding: 32px 0;
-        background: #85cee4;
-        transform: translateY(-29px);
-        -webkit-transform: translateY(-29px);
-        -moz-transform: translateY(-29px);
-        -ms-transform: translateY(-29px);
-        -o-transform: translateY(-29px);
     }
 }
