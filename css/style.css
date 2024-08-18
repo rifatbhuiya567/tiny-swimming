@@ -16,16 +16,17 @@ Table Of Content
 3. Home Welcome CSS Start
 4. Home Journey CSS Start
 5. BTT CSS Start
-6. Footer CSS Start
-7. About Approach CSS Start
-8. About Sections CSS Start
-9. Lessons Banner CSS Start
-10. Lessons List CSS Start
-11. Lessons Details List CSS Start
-12. Prices CSS Start
-13. Calendar CSS Start
-14. Award CSS Start
-15. Contact CSS Start
+6. Watermark CSS Start
+7. Footer CSS Start
+8. About Approach CSS Start
+9. About Sections CSS Start
+10. Lessons Banner CSS Start
+11. Lessons List CSS Start
+12. Lessons Details List CSS Start
+13. Prices CSS Start
+14. Calendar CSS Start
+15. Award CSS Start
+16. Contact CSS Start
 */
 
 :root { 
@@ -196,6 +197,11 @@ body {
     -o-transition: var(--transition);
 }
 
+.main-header .container.position-relative {
+    z-index: 50;
+    width: 100%;
+}
+
 .main-header.shrink-header {
     padding-bottom: 2px;
 }
@@ -233,6 +239,10 @@ body {
     -o-transition: var(--transition);
 }
 
+.main-header.shrink-header .top-buttons li a {
+    padding: 4px 12px 6px;
+}
+
 .top-buttons li a:hover {
     opacity: .7;
 }
@@ -257,6 +267,10 @@ body {
     -o-transition: var(--transition);
 }
 
+.main-header.shrink-header .nav-items a {
+    font-size: var(--bs);
+}
+
 .main-header .nav-items a:hover,
 .main-header .nav-items a.active {
     color: var(--primary_thin);
@@ -274,6 +288,10 @@ body {
     -moz-transition: var(--transition);
     -ms-transition: var(--transition);
     -o-transition: var(--transition);
+}
+
+.main-header.shrink-header .sidebar .solid-bar {
+    font-size: 22px;
 }
 
 .sidebar .solid-bar:hover {
@@ -368,6 +386,7 @@ body {
     position: absolute;
     bottom: -42px;
     left: 0;
+    z-index: 40;
 }
 /* Header CSS End */
 
@@ -436,7 +455,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 60px 0;
+    padding: 80px 0;
     background: url(../images/home/slider/overlay.png) no-repeat center / cover;
     width: 100%;
 }
@@ -510,7 +529,7 @@ body {
 /* Home Slider CSS End */
 
 .welcome {
-    height: 520px;
+    padding: 160px 0;
     color: var(--white_color);
     background: url(../images/home/welcome_bg.png) no-repeat center / cover;
 }
@@ -627,37 +646,6 @@ body {
 .journey .class-model-8 p {
     color: var(--crimson_color);
 }
-
-.journey .watermark-top-left {
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-.journey .watermark-top-right {
-    top: -300px;
-    right: 0;
-    z-index: -1;
-}
-
-.journey .watermark-top-left img,
-.journey .watermark-top-right img,
-.journey .watermark-bottom-left img,
-.journey .watermark-bottom-right img {
-    width: 70%;
-}
-
-.journey .watermark-bottom-left {
-    bottom: -80px;
-    left: 0;
-    z-index: -1;
-}
-
-.journey .watermark-bottom-right {
-    bottom: 280px;
-    right: 0;
-    z-index: -1;
-}
 /* Home Journey CSS End */
 
 .btt {
@@ -671,6 +659,52 @@ body {
     cursor: pointer;
 }
 /* BTT CSS End */
+
+.watermark-top-left img,
+.watermark-top-right img,
+.watermark-left-middle img,
+.watermark-right-middle img,
+.watermark-bottom-left img,
+.watermark-bottom-right img {
+    width: 70%;
+}
+
+.watermark-top-left {
+    top: 30%;
+    left: 0;
+    z-index: -1;
+}
+
+.watermark-top-right {
+    top: 35%;
+    right: 0;
+    z-index: -1;
+}
+
+.watermark-left-middle {
+    bottom: 30%;
+    left: 0;
+    z-index: -1;
+}
+
+.watermark-right-middle {
+    bottom: 35%;
+    right: 0;
+    z-index: -1;
+}
+
+.watermark-bottom-left {
+    bottom: 10%;
+    left: 0;
+    z-index: -1;
+}
+
+.watermark-bottom-right {
+    bottom: 15%;
+    right: 0;
+    z-index: -1;
+}
+/* Watermark CSS End */
 
 .main-footer {
     padding: 40px 0 100px;
@@ -756,7 +790,7 @@ body {
 /* Footer CSS End */
 
 .our-approach {
-    height: 520px;
+    padding: 160px 0;
     color: var(--white_color);
     background: url(../images/about/about_bg.png) no-repeat center / cover;
 }
@@ -793,37 +827,8 @@ body {
     color: var(--green_color);
 }
 
-.section-1 .watermark-top-right {
-    top: -40px;
-    right: 20px;
-    z-index: -1;
-}
-
-.section-1 .watermark-top-right img,
-.section-1 .watermark-bottom-left img,
-.section-1 .watermark-bottom-right img,
-.section-3 .watermark-top-left img,
-.section-3 .watermark-bottom-left img,
-.section-3 .watermark-right-middle img,
-.section-5 .watermark-top-middle img,
-.section-5 .watermark-bottom-right img {
-    width: 80%;
-}
-
-.section-1 .watermark-bottom-left {
-    bottom: 80px;
-    left: 0;
-    z-index: -1;
-}
-
-.section-1 .watermark-bottom-right {
-    bottom: -150px;
-    right: 0;
-    z-index: -1;
-}
-
 .section-2 {
-    height: 600px;
+    padding: 160px 0;
     color: var(--white_color);
     background: url(../images/about/section_2/bg.png) no-repeat center / cover;
 }
@@ -858,50 +863,10 @@ body {
     color: var(--crimson_color);
 }
 
-.section-3 .watermark-top-left {
-    top: -200px;
-    left: 0;
-    z-index: -1;
-}
-
-.section-3 .watermark-bottom-left {
-    bottom: -200px;
-    left: 0;
-    z-index: -1;
-}
-
-.section-3 .watermark-right-middle {
-    top: 50%;
-    right: 0;
-    z-index: -1;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-}
-
 .section-4 {
-    height: 440px;
+    padding: 120px 0;
     color: var(--primary_bold);
     background: url(../images/about/section_4/bg.png) no-repeat center / cover;
-}
-
-.section-5 .watermark-top-middle {
-    top: -350px;
-    left: 50%;
-    z-index: -1;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-}
-
-.section-5 .watermark-bottom-right {
-    bottom: -200px;
-    right: 0;
-    z-index: -1;
 }
 /* About Sections CSS End */
 
@@ -911,7 +876,7 @@ body {
 }
 
 .lessons-banner-content {
-    height: 250px;
+    padding: 92px 0;
     color: var(--white_color);
     background: url(../images/lessons/wave_1.png) no-repeat center / cover;
     transform: translateY(-38px);
@@ -933,7 +898,7 @@ body {
 
 .lessons-list .list-item:first-child, 
 .lessons-list .list-item:last-child {
-    height: 200px;
+    padding: 60px 0;
     margin-bottom: 40px;
     color: var(--primary_color);
 }
@@ -958,7 +923,7 @@ body {
 }
 
 .lessons-list .list-item {
-    height: 280px;
+    padding: 100px 0;
 }
 
 .lessons-list .list-item p {
@@ -1160,23 +1125,6 @@ body {
 .prices table tbody tr:nth-child(5) td {
     color: var(--crimson_color);
 }
-
-.prices .watermark-top-right img,
-prices .watermark-bottom-left img {
-    width: 70%;
-}
-
-.prices .watermark-top-right {
-    top: -150px;
-    right: 0;
-    z-index: -1;
-}
-
-.prices .watermark-bottom-left {
-    bottom: -200px;
-    left: 0;
-    z-index: -1;
-}
 /* Prices CSS End */
 
 .calendar {
@@ -1208,35 +1156,6 @@ prices .watermark-bottom-left img {
 
 .calendar p.text-lg {
     font-weight: 400;
-}
-
-.calendar .watermark-top-right img,
-.calendar .watermark-left-middle img,
-.calendar .watermark-bottom-right img {
-    width: 70%;
-}
-
-.calendar .watermark-top-right {
-    top: -150px;
-    right: 0;
-    z-index: -1;
-}
-
-.calendar .watermark-left-middle {
-    top: 50%;
-    left: 0;
-    z-index: -1;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-}
-
-.calendar .watermark-bottom-right {
-    bottom: -100px;
-    right: 0;
-    z-index: -1;
 }
 /* Calendar CSS End */
 
@@ -1322,23 +1241,6 @@ prices .watermark-bottom-left img {
 .award table a:hover {
     text-decoration: underline;
 }
-
-.award .watermark-top-right img,
-.award .watermark-bottom-left img {
-    width: 70%;
-}
-
-.award .watermark-top-right {
-    top: -150px;
-    right: 0;
-    z-index: -1;
-}
-
-.award .watermark-bottom-left {
-    bottom: -150px;
-    left: 0;
-    z-index: -1;
-}
 /* Award CSS End */
 
 .contact-banner {
@@ -1347,14 +1249,14 @@ prices .watermark-bottom-left img {
 }
 
 .contact-banner-content {
-    height: 222px;
+    padding: 80px 0;
     color: var(--white_color);
     background: url(../images/contact/wave-1.png) no-repeat center / cover;
-    transform: translateY(-40px);
-    -webkit-transform: translateY(-40px);
-    -moz-transform: translateY(-40px);
-    -ms-transform: translateY(-40px);
-    -o-transform: translateY(-40px);
+    transform: translateY(-42px);
+    -webkit-transform: translateY(-42px);
+    -moz-transform: translateY(-42px);
+    -ms-transform: translateY(-42px);
+    -o-transform: translateY(-42px);
 }
 
 .contact-banner-content h2 {
@@ -1363,7 +1265,7 @@ prices .watermark-bottom-left img {
 }
 
 .contact-options {
-    height: 480px;
+    padding: 160px 0;
     color: var(--white_color);
     background: url(../images/contact/wave-2.png) no-repeat center / cover;
     transform: translateY(-60px);
@@ -1455,22 +1357,5 @@ prices .watermark-bottom-left img {
 
 .contact-form .turtle img {
     width: 50px;
-}
-
-.contact-form .watermark-top-right img,
-.contact-form .watermark-bottom-left img {
-    width: 70%;
-}
-
-.contact-form .watermark-top-right {
-    top: -200px;
-    right: 0;
-    z-index: -1;
-}
-
-.contact-form .watermark-bottom-left {
-    bottom: 0;
-    left: 0;
-    z-index: -1;
 }
 /* Contact CSS End */

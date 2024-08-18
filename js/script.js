@@ -14,7 +14,7 @@
     $(window).scroll(function(){
         let scrolling = $(this).scrollTop();
 
-        if(scrolling > 80) {
+        if(scrolling > 60) {
             $(".main-header").addClass("shrink-header")
         }else{
             $(".main-header").removeClass("shrink-header")
